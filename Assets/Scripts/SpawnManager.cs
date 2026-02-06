@@ -12,12 +12,14 @@ public class SpawnManager : MonoBehaviour
         {
             float x = Random.Range(-10,10);
             int dogIndex = Random.Range(0,dogPrefabs.Length);
+
             if (dogPrefabs[dogIndex] != null)
             {
                 Instantiate(dogPrefabs[dogIndex], new Vector3(x,0,20), Quaternion.Euler(0,180,0));
             }
             
         }
-        
+
+       
     }
 }

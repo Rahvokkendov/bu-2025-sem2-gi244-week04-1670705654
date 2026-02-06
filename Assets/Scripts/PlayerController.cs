@@ -36,7 +36,7 @@ public class PlayerController : MonoBehaviour
             Instantiate(bulletPrefab, transform.position, Quaternion.identity); 
         }
 
-        
+       
         
     }
     private void OnDrawGizmos()
