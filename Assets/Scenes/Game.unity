@@ -551,6 +551,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: eaaacf0af10d8d2478e4447046a9a593, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  dogPrefabs:
+  - {fileID: 4689276565361710981, guid: 154bc16e3d2206f479937a9e2ef5774c, type: 3}
+  - {fileID: 6429923145497543263, guid: c28145f6cd74fb44686265ec1629e789, type: 3}
+  - {fileID: 5601567610420944423, guid: 7ccfab8fbb653664f99e6f6818283c13, type: 3}
 --- !u!4 &1005362562
 Transform:
   m_ObjectHideFlags: 0
